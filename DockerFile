@@ -1,0 +1,24 @@
+# Use a base image for Python (ensure it's a compatible version)
+FROM python:3.12-slim
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Install system dependencies (including libGL)
+RUN apt-get update && apt-get install -y libgl1-mesa-glx
+
+# Install Python dependencies from requirements.txt
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copy the rest of the application code
+COPY . .
+
+# Set the environment variable for Flask app
+ENV FLASK_APP=app.py
+
+# Expose the port your app will run on
+EXPOSE 5001
+
+# Command to run your Flask app
+CMD ["python", "app.py"]
