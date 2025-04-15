@@ -1,0 +1,604 @@
+{
+  "challenges": [
+    {
+      "id": 1,
+      "name": "3#Scan 3 high-fiber items",
+      "criteria": "fiber",
+      "value": "A#7#G"
+    },
+    {
+      "id": 2,
+      "name": "5#Scan 5 high-cholesterol items",
+      "criteria": "cholesterol",
+      "value": "A#60#M"
+    },
+    {
+      "id": 3,
+      "name": "4#Scan 4 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 4,
+      "name": "3#Scan 3 low-saturated fat items",
+      "criteria": "saturated_fat",
+      "value": "L#1#G"
+    },
+    {
+      "id": 5,
+      "name": "5#Scan 5 high-carbohydrates items",
+      "criteria": "carbohydrates",
+      "value": "A#30#G"
+    },
+    {
+      "id": 6,
+      "name": "3#Scan 3 low-potassium items",
+      "criteria": "potassium",
+      "value": "L#200#M"
+    },
+    {
+      "id": 7,
+      "name": "4#Scan 4 high-cholesterol items",
+      "criteria": "cholesterol",
+      "value": "A#60#M"
+    },
+    {
+      "id": 8,
+      "name": "4#Scan 4 high-sodium items",
+      "criteria": "sodium",
+      "value": "A#200#M"
+    },
+    {
+      "id": 9,
+      "name": "4#Scan 4 high-fat items",
+      "criteria": "fat",
+      "value": "A#13#G"
+    },
+    {
+      "id": 10,
+      "name": "5#Scan 5 low-sugars items",
+      "criteria": "sugars",
+      "value": "L#5#G"
+    },
+    {
+      "id": 11,
+      "name": "3#Scan 3 high-sugars items",
+      "criteria": "sugars",
+      "value": "A#20#G"
+    },
+    {
+      "id": 12,
+      "name": "3#Scan 3 low-saturated fat items",
+      "criteria": "saturated_fat",
+      "value": "L#1#G"
+    },
+    {
+      "id": 13,
+      "name": "4#Scan 4 high-sugars items",
+      "criteria": "sugars",
+      "value": "A#20#G"
+    },
+    {
+      "id": 14,
+      "name": "4#Scan 4 low-protein items",
+      "criteria": "proteins",
+      "value": "L#5#G"
+    },
+    {
+      "id": 15,
+      "name": "3#Scan 3 low-fiber items",
+      "criteria": "fiber",
+      "value": "L#3#G"
+    },
+    {
+      "id": 16,
+      "name": "2#Scan 2 low-carbohydrates items",
+      "criteria": "carbohydrates",
+      "value": "L#10#G"
+    },
+    {
+      "id": 17,
+      "name": "3#Scan 3 high-carbohydrates items",
+      "criteria": "carbohydrates",
+      "value": "L#10#G"
+    },
+    {
+      "id": 18,
+      "name": "4#Scan 4 high-carbohydrates items",
+      "criteria": "carbohydrates",
+      "value": "A#30#G"
+    },
+    {
+      "id": 19,
+      "name": "5#Scan 5 low-calcium items",
+      "criteria": "calcium",
+      "value": "L#100#M"
+    },
+    {
+      "id": 20,
+      "name": "3#Scan 3 high-cholesterol items",
+      "criteria": "cholesterol",
+      "value": "A#60#M"
+    },
+    {
+      "id": 21,
+      "name": "3#Scan 3 high-trans fat items",
+      "criteria": "trans_fat",
+      "value": "A#1#G"
+    },
+    {
+      "id": 22,
+      "name": "2#Scan 2 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 23,
+      "name": "3#Scan 3 high-fat items",
+      "criteria": "fat",
+      "value": "A#13#G"
+    },
+    {
+      "id": 24,
+      "name": "3#Scan 3 low-protein items",
+      "criteria": "proteins",
+      "value": "L#5#G"
+    },
+    {
+      "id": 25,
+      "name": "5#Scan 5 low-calcium items",
+      "criteria": "calcium",
+      "value": "L#100#M"
+    },
+    {
+      "id": 26,
+      "name": "4#Scan 4 high-fiber items",
+      "criteria": "fiber",
+      "value": "A#7#G"
+    },
+    {
+      "id": 27,
+      "name": "2#Scan 2 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 28,
+      "name": "4#Scan 4 low-fat items",
+      "criteria": "fat",
+      "value": "L#3#G"
+    },
+    {
+      "id": 29,
+      "name": "5#Scan 5 high-sodium items",
+      "criteria": "sodium",
+      "value": "A#200#M"
+    },
+    {
+      "id": 30,
+      "name": "5#Scan 5 high-cholesterol items",
+      "criteria": "cholesterol",
+      "value": "A#60#M"
+    },
+    {
+      "id": 31,
+      "name": "3#Scan 3 low-fat items",
+      "criteria": "fat",
+      "value": "L#3#G"
+    },
+    {
+      "id": 32,
+      "name": "5#Scan 5 high-carbohydrates items",
+      "criteria": "carbohydrates",
+      "value": "A#30#G"
+    },
+    {
+      "id": 33,
+      "name": "2#Scan 2 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 34,
+      "name": "2#Scan 2 high-sodium items",
+      "criteria": "sodium",
+      "value": "A#200#M"
+    },
+    {
+      "id": 35,
+      "name": "5#Scan 5 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 36,
+      "name": "5#Scan 5 low-cholesterol items",
+      "criteria": "cholesterol",
+      "value": "L#20#M"
+    },
+    {
+      "id": 37,
+      "name": "5#Scan 5 low-sodium items",
+      "criteria": "sodium",
+      "value": "L#120#M"
+    },
+    {
+      "id": 38,
+      "name": "Scan 2 low-protein items",
+      "criteria": "proteins",
+      "value": "L#5#G"
+    },
+    {
+      "id": 39,
+      "name": "3#Scan 3 low-sugars items",
+      "criteria": "sugars",
+      "value": "L#5#G"
+    },
+    {
+      "id": 40,
+      "name": "5#Scan 5 low-cholesterol items",
+      "criteria": "cholesterol",
+      "value": "L#20#M"
+    },
+    {
+      "id": 41,
+      "name": "5#Scan 5 low-trans fat items",
+      "criteria": "trans_fat",
+      "value": "L#0#G"
+    },
+    {
+      "id": 42,
+      "name": "3#Scan 3 high-fat items",
+      "criteria": "fat",
+      "value": "A#13#G"
+    },
+    {
+      "id": 43,
+      "name": "4#Scan 4 high-fat items",
+      "criteria": "fat",
+      "value": "A#13#G"
+    },
+    {
+      "id": 44,
+      "name": "3#Scan 3 high-fat items",
+      "criteria": "fat",
+      "value": "A#13#G"
+    },
+    {
+      "id": 45,
+      "name": "5#Scan 5 high-carbohydrates items",
+      "criteria": "carbohydrates",
+      "value": "A#30#G"
+    },
+    {
+      "id": 46,
+      "name": "2#Scan 2 high-trans fat items",
+      "criteria": "trans_fat",
+      "value": "A#1#G"
+    },
+    {
+      "id": 47,
+      "name": "2#Scan 2 high-saturated fat items",
+      "criteria": "saturated_fat",
+      "value": "A#5#G"
+    },
+    {
+      "id": 48,
+      "name": "4#Scan 4 high-sugars items",
+      "criteria": "sugars",
+      "value": "A#20#G"
+    },
+    {
+      "id": 49,
+      "name": "5#Scan 5 high-iron items",
+      "criteria": "iron",
+      "value": "A#10#M"
+    },
+    {
+      "id": 50,
+      "name": "3#Scan 3 high-sugars items",
+      "criteria": "sugars",
+      "value": "A#20#G"
+    },
+    {
+      "id": 51,
+      "name": "3#Scan 3 low-calcium items",
+      "criteria": "calcium",
+      "value": "L#100#M"
+    },
+    {
+      "id": 52,
+      "name": "5#Scan 5 high-potassium items",
+      "criteria": "potassium",
+      "value": "A#500#M"
+    },
+    {
+      "id": 53,
+      "name": "5#Scan 5 low-trans fat items",
+      "criteria": "trans_fat",
+      "value": "L#0#G"
+    },
+    {
+      "id": 54,
+      "name": "4#Scan 4 low-calcium items",
+      "criteria": "calcium",
+      "value": "L#100#M"
+    },
+    {
+      "id": 55,
+      "name": "2#Scan 2 low-calcium items",
+      "criteria": "calcium",
+      "value": "L#100#M"
+    },
+    {
+      "id": 56,
+      "name": "3#Scan 3 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 57,
+      "name": "4#Scan 4 high-sodium items",
+      "criteria": "sodium",
+      "value": "A#200#M"
+    },
+    {
+      "id": 58,
+      "name": "3#Scan 3 low-fat items",
+      "criteria": "fat",
+      "value": "L#3#G"
+    },
+    {
+      "id": 59,
+      "name": "5#Scan 5 low-cholesterol items",
+      "criteria": "cholesterol",
+      "value": "L#20#M"
+    },
+    {
+      "id": 60,
+      "name": "5#Scan 5 low-sugars items",
+      "criteria": "sugars",
+      "value": "L#5#G"
+    },
+    {
+      "id": 61,
+      "name": "2#Scan 2 high-sodium items",
+      "criteria": "sodium",
+      "value": "A#200#M"
+    },
+    {
+      "id": 62,
+      "name": "4#Scan 4 high-cholesterol items",
+      "criteria": "cholesterol",
+      "value": "A#60#M"
+    },
+    {
+      "id": 63,
+      "name": "3#Scan 3 high-fiber items",
+      "criteria": "fiber",
+      "value": "A#7#G"
+    },
+    {
+      "id": 64,
+      "name": "3#Scan 3 high-saturated fat items",
+      "criteria": "saturated_fat",
+      "value": "A#5#G"
+    },
+    {
+      "id": 65,
+      "name": "5#Scan 5 high-saturated fat items",
+      "criteria": "saturated_fat",
+      "value": "A#5#G"
+    },
+    {
+      "id": 66,
+      "name": "2#Scan 2 low-carbohydrates items",
+      "criteria": "carbohydrates",
+      "value": "B#10#G"
+    },
+    {
+      "id": 67,
+      "name": "5#Scan 5 high-saturated fat items",
+      "criteria": "saturated_fat",
+      "value": "A#5#G"
+    },
+    {
+      "id": 68,
+      "name": "2#Scan 2 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 69,
+      "name": "2#Scan 2 low-iron items",
+      "criteria": "iron",
+      "value": "L#5#M"
+    },
+    {
+      "id": 70,
+      "name": "4#Scan 4 high-fiber items",
+      "criteria": "fiber",
+      "value": "A#7#G"
+    },
+    {
+      "id": 71,
+      "name": "3#Scan 3 high-sugars items",
+      "criteria": "sugars",
+      "value": "A#20#G"
+    },
+    {
+      "id": 72,
+      "name": "5#Scan 5 high-potassium items",
+      "criteria": "potassium",
+      "value": "A#500#M"
+    },
+    {
+      "id": 73,
+      "name": "2#Scan 2 high-iron items",
+      "criteria": "iron",
+      "value": "A#10#M"
+    },
+    {
+      "id": 74,
+      "name": "3#Scan 3 low-sodium items",
+      "criteria": "sodium",
+      "value": "L#120#M"
+    },
+    {
+      "id": 75,
+      "name": "3#Scan 3 low-iron items",
+      "criteria": "iron",
+      "value": "L#5#M"
+    },
+    {
+      "id": 76,
+      "name": "5#Scan 5 low-iron items",
+      "criteria": "iron",
+      "value": "L#5#M"
+    },
+    {
+      "id": 77,
+      "name": "5#Scan 5 high-sugars items",
+      "criteria": "sugars",
+      "value": "A#20#G"
+    },
+    {
+      "id": 78,
+      "name": "4#Scan 4 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 79,
+      "name": "3#Scan 3 high-protein items",
+      "criteria": "proteins",
+      "value": "A#20#G"
+    },
+    {
+      "id": 80,
+      "name": "4#Scan 4 high-protein items",
+      "criteria": "proteins",
+      "value": "A#20#G"
+    },
+    {
+      "id": 81,
+      "name": "5#Scan 5 low-sodium items",
+      "criteria": "sodium",
+      "value": "L#120#M"
+    },
+    {
+      "id": 82,
+      "name": "3#Scan 3 high-protein items",
+      "criteria": "proteins",
+      "value": "A#20#G"
+    },
+    {
+      "id": 83,
+      "name": "4#Scan 4 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 84,
+      "name": "4#Scan 4 high-iron items",
+      "criteria": "iron",
+      "value": "A#10#M"
+    },
+    {
+      "id": 85,
+      "name": "5#Scan 5 high-cholesterol items",
+      "criteria": "cholesterol",
+      "value": "A#60#M"
+    },
+    {
+      "id": 86,
+      "name": "4#Scan 4 low-fiber items",
+      "criteria": "fiber",
+      "value": "L#3#G"
+    },
+    {
+      "id": 87,
+      "name": "4#Scan 4 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 88,
+      "name": "2#Scan 2 low-potassium items",
+      "criteria": "potassium",
+      "value": "L#200#M"
+    },
+    {
+      "id": 89,
+      "name": "4#Scan 4 high-calcium items",
+      "criteria": "calcium",
+      "value": "A#300#M"
+    },
+    {
+      "id": 90,
+      "name": "5#Scan 5 high-carbohydrates items",
+      "criteria": "carbohydrates",
+      "value": "A#30#G"
+    },
+    {
+      "id": 91,
+      "name": "4#Scan 4 low-carbohydrates items",
+      "criteria": "carbohydrates",
+      "value": "L#10#G"
+    },
+    {
+      "id": 92,
+      "name": "3#Scan 3 low-sodium items",
+      "criteria": "sodium",
+      "value": "L#120#M"
+    },
+    {
+      "id": 93,
+      "name": "2#Scan 2 low-saturated fat items",
+      "criteria": "saturated_fat",
+      "value": "L#1#G"
+    },
+    {
+      "id": 94,
+      "name": "5#Scan 5 high-protein items",
+      "criteria": "proteins",
+      "value": "A#20#G"
+    },
+    {
+      "id": 95,
+      "name": "2#Scan 2 high-sodium items",
+      "criteria": "sodium",
+      "value": "A#200#M"
+    },
+    {
+      "id": 96,
+      "name": "4#Scan 4 low-sugars items",
+      "criteria": "sugars",
+      "value": "L#5#G"
+    },
+    {
+      "id": 97,
+      "name": "2#Scan 2 high-sodium items",
+      "criteria": "sodium",
+      "value": "A#200#M"
+    },
+    {
+      "id": 98,
+      "name": "2#Scan 2 low-fat items",
+      "criteria": "fat",
+      "value": "L#3#G"
+    },
+    {
+      "id": 99,
+      "name": "2#Scan 2 low-sugars items",
+      "criteria": "sugars",
+      "value": "L#5#G"
+    },
+    {
+      "id": 100,
+      "name": "3#Scan 3 high-sodium items",
+      "criteria": "sodium",
+      "value": "A#200#M"
+    }
+  ]
+}

@@ -12,6 +12,8 @@ import time
 from flask_cors import CORS
 from pyzbar.pyzbar import decode
 import json
+from promptloader import return_prompt
+
 app = Flask(__name__)
 CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="http://localhost:5173")
@@ -90,6 +92,10 @@ def analyze_product_route():
 
         product_name = request_data.get('product_name')
         product_ingredients = request_data.get("product_ingredients")
+        ecoscore_grade = request_data.get("ecoscore_grade")
+        food_groups = request_data.get("food_groups")
+        print(ecoscore_grade)
+        print(food_groups)
         product_nutrients = request_data.get("product_nutrients")
         user_preferences = request_data.get("user_preferences", {})
 
@@ -109,13 +115,7 @@ def analyze_product_route():
             print("error serializing JSON inputs:", e)
             return jsonify({"error": "Invalid input structure"}), 400
 
-        prompt = (
-            f"The product name: {product_name}\n"
-            f"The ingredients in the product: {product_ingredients}\n"
-            f"The nutrients in the product:\n{nutrients_str}\n"
-            f"User Preferences which includes what diet they are on, a list of what ingredients they do NOT want in the product (give a warning if they are), and the limits that they want for each nutrient: \n{preferences_str}\n\n"
-            "Rate how well this product fits the user's dietary preferences from 1 to 10 and put the number alone at the front of your response followed by a '#', and explain briefly why or why not. Make sure to discuss each factor in the user's preferences. Talk in a third person perspective (e.g. using 'this product' instead of 'i think this product'). Address the 'user' as 'your', 'you', and things of that nature. DO NOT MAKE IT LARGE, KEEP IT SHORT AS YOU CAN, CLEAN, AND CLEAR, only discuss the parts you find are most important to the rating"
-        )
+        prompt = return_prompt(product_name, product_ingredients, nutrients_str, preferences_str)
 
         api_key = os.getenv("GROQ_API_KEY")
         url = 'https://api.groq.com/openai/v1/chat/completions'
